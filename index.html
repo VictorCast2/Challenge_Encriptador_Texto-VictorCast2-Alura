@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es-co">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Encriptador De Texto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="position.css">
+</head>
+<body>
+    
+    <div class="contenedor">
+        <div class="caja_1"></div>
+        <div class="caja_2">
+            <img class="muheco" id="esperando_mensaje" src="Muñeco.png">
+        </div>
+        <div class="caja_3">
+            <div class="caja_4" id="esperando_mensaje1">Ningun mensaje fue encontrado</div>
+            <div class="caja_5" id="esperando_mensaje2">Ingresa el texto que desees encriptar o desencriptar.</div>
+        </div>
+        
+        
+        <div class="caja_6">
+            <img src="Logo.png">
+        </div>
+        <div class="caja_7">
+             
+            <textarea  autofocus, rows="1", autocorect="on" c placeholder="Escribe el texto aqui" id="text1"></textarea>
+            
+        </div>
+        <div class="caja_8">
+            <button id="encriptar" class="caja_9" >Encriptar</button>
+            <button class="caja_9" id="desencriptar">Desencriptar</button>
+        </div>
+
+        <div class="caja_10">Solo letras minúsculas y sin acentos</div>
+
+        <button id="copiar" class="caja_11" >Copiar</button>
+
+        <div class="caja_12" id="mensaje_encriptado"></div>
+
+    </div>
+
+    <script src="app.js" defer></script>
+</body>
+</html>

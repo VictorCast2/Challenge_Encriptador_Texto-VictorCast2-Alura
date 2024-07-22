@@ -1,0 +1,118 @@
+.caja_1 {
+    position: relative;
+    width: 400px;
+    height: 944px;
+    top: 40px;
+    left: 1000px;
+    text-align: center;
+    border-radius: 24px;
+}
+
+.caja_2 {
+    position: relative;
+    width: 336px;
+    height: 304px;
+    top: -717px;
+    left: 1032px;
+    z-index: 1;
+}
+
+.caja_3 {
+    position: relative;
+    width: 336px;
+    height: 122px;
+    top: -619px;
+    left: 1032px;
+    gap: 16px;
+}
+
+.caja_4 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+}
+
+.caja_6 {
+    position: relative;
+    width: 120px;
+    height: 48px;
+    top: -1330px;
+    left: 40px;
+    gap: 40px;
+    z-index: 2;
+}
+
+.caja_7 {
+    position: relative;
+    width: 680px;
+    height: 288px;
+    top: -1200px;
+    left: 240px;
+    gap: 0;
+}
+
+.caja_7 textarea {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+    color: #0A3871;
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 680px;
+    height: 288px;
+    resize: none;
+}
+
+textarea::placeholder {
+    color: #0A3871;
+}
+
+.caja_8 {
+    position: relative;
+    width: 680px;
+    height: 67px;
+    top: -800px;
+    left: 200px;
+    gap: 24px;
+}
+
+.caja_9 {
+    background-color: #0A3871;
+    width: 328px;
+    height: 67px;
+    padding: 24px;
+    gap: 8px;
+    border-radius: 24px;
+    text-align: center;
+    color: white;
+}
+
+.caja_10 {
+    position: relative;
+    width: 229px;
+    height: 18px;
+    top: -910px;
+    left: 200px;
+    gap: 8px;
+}
+
+.caja_11 {
+    position: relative;
+    width: 336px;
+    height: 67px;
+    top: -885px;
+    left: 1032px;
+}
+
+.caja_12 {
+    position: relative;
+    width: 336px;
+    height: 781px;
+    top: -1675px;
+    left: 1032px;
+    z-index: 4;
+}
