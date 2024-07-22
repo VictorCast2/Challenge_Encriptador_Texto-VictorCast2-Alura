@@ -63,4 +63,3 @@ var encriptar_boton = document.getElementById("encriptar");
     
     var dencriptar_boton = document.getElementById("desencriptar");
         dencriptar_boton.addEventListener("click", desencriptador);
-        
