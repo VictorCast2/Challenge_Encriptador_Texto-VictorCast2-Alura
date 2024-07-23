@@ -1,83 +1,103 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #F3F5FC;
-    
-
 }
 
-.contenedor{
+.contenedor {
     margin: 30vh auto;
-    width: 1440px;
-    height: 1024px;
-    top: 622px;
-    left: -2277px;
-    gap: 0px;
-    opacity: 0px;
-    
+    width: 90%;
+    max-width: 1440px;
+    height: auto;
+    padding: 20px;
 }
 
-
-
-.caja_1{
+.caja_1 {
     background-color: #ffffff;
     display: block;
-
 }
 
-.caja_2{
+.caja_2 {
     background-color: none;
     display: block;
 }
 
-.caja_3{
+.caja_3 {
     background-color: none;
     display: block;
 }
 
-.caja_4{
+.caja_4 {
     background-color: none;
-    width: 336px;
+    width: 100%;
+    max-width: 336px;
     height: 58px;
-    gap: 0px;
-    opacity: 0px;
     text-align: center;
     display: block;
-
 }
 
-.caja_5{
+.caja_5 {
     background-color: none;
-    width: 336px;
+    width: 100%;
+    max-width: 336px;
     height: 48px;
-    gap: 0px;
-    opacity: 0px;
     text-align: center;
     display: block;
-    
 }
 
-.caja_6{
+.caja_6 {
     background-color: none;
     display: block;
 }
 
-.caja_7{
+.caja_7 {
     background-color: none;
     display: block;
 }
 
-.caja_8{
+.caja_7 textarea {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+    color: #0A3871;
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 100%;
+    height: 288px;
+    resize: none;
+}
+
+textarea::placeholder {
+    color: #0A3871;
+}
+
+.caja_8 {
     background-color: none;
     display: flex;
-    display: block;
+    flex-direction: column;
+    gap: 24px;
 }
 
-.caja_10{
+.caja_9 {
+    background-color: #0A3871;
+    width: 100%;
+    max-width: 328px;
+    height: 67px;
+    padding: 24px;
+    gap: 8px;
+    border-radius: 24px;
+    text-align: center;
+    color: white;
+}
+
+.caja_10 {
     background-color: none;
     font-family: Inter;
     font-size: 12px;
@@ -86,13 +106,9 @@ body{
     text-align: left;
     color: #495057;
     display: block;
-    
-
-
 }
 
-.caja_11{
-   
+.caja_11 {
     padding: 24px;
     gap: 8px;
     border-radius: 24px;
@@ -102,21 +118,64 @@ body{
     z-index: 3;
     display: none;
     border: 1px solid #0A3871;
-
-    
 }
 
-.caja_12{
+.caja_12 {
     background-color: transparent;
     font-family: Inter;
     font-size: 24px;
     font-weight: 400;
     line-height: 36px;
     text-align: left;
-    color: #0A3871; 
+    color: #0A3871;
     display: block;
 }
 
-.muheco{
+.muheco {
     display: block;
+}
+
+/* Responsive Design */
+
+/* Laptop */
+@media (max-width: 1440px) {
+    .contenedor {
+        width: 95%;
+    }
+    .caja_7 textarea {
+        font-size: 28px;
+    }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    .contenedor {
+        margin: 20vh auto;
+    }
+    .caja_7 textarea {
+        font-size: 24px;
+        height: 200px;
+    }
+    .caja_9 {
+        height: 50px;
+    }
+}
+
+/* Celular */
+@media (max-width: 480px) {
+    .contenedor {
+        margin: 10vh auto;
+        padding: 10px;
+    }
+    .caja_7 textarea {
+        font-size: 20px;
+        height: 150px;
+    }
+    .caja_9 {
+        height: 40px;
+    }
+    .caja_10 {
+        font-size: 10px;
+        line-height: 16px;
+    }
 }
