@@ -26,7 +26,12 @@
     gap: 16px;
 }
 
-	@@ -35,20 +35,20 @@
+.caja_4 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+}
 
 .caja_6 {
     position: relative;
@@ -47,7 +52,13 @@
     gap: 0;
 }
 
-	@@ -62,7 +62,7 @@
+.caja_7 textarea {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+    color: #0A3871;
     border: none;
     outline: none;
     background: transparent;
@@ -55,7 +66,10 @@
     height: 288px;
     resize: none;
 }
-	@@ -73,16 +73,19 @@ textarea::placeholder {
+
+textarea::placeholder {
+    color: #0A3871;
+}
 
 .caja_8 {
     position: relative;
@@ -72,7 +86,10 @@
     height: 67px;
     padding: 24px;
     gap: 8px;
-	@@ -93,26 +96,61 @@ textarea::placeholder {
+    border-radius: 24px;
+    text-align: center;
+    color: white;
+}
 
 .caja_10 {
     position: relative;
@@ -98,39 +115,4 @@
     top: -1675px;
     left: 1032px;
     z-index: 4;
-}
-
-/* Responsive Design */
-
-/* Laptop */
-@media (max-width: 1440px) {
-    .caja_7 textarea {
-        font-size: 28px;
-    }
-}
-
-/* Tablet */
-@media (max-width: 768px) {
-    .caja_7 textarea {
-        font-size: 24px;
-        height: 200px;
-    }
-    .caja_9 {
-        height: 50px;
-    }
-}
-
-/* Celular */
-@media (max-width: 480px) {
-    .caja_7 textarea {
-        font-size: 20px;
-        height: 150px;
-    }
-    .caja_9 {
-        height: 40px;
-    }
-    .caja_10 {
-        font-size: 10px;
-        line-height: 16px;
-    }
 }
