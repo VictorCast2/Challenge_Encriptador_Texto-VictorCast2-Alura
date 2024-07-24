@@ -124,16 +124,26 @@ body{
 /* Responsive Design */
 
 /* Laptop */
-@media (max-width:) {
-
+@media (max-width: 1440px) {
+    .contenedor {
+        width: 100%;
+        height: auto;
+        margin: 15vh auto;
+    }
 }
 
 /* Tablet */
-@media (max-width: ) {
-
+@media (max-width: 768px) {
+    .contenedor {
+        width: 90%;
+        margin: 10vh auto;
+    }
 }
 
 /* Celular */
-@media (max-width:) {
-
+@media (max-width: 480px) {
+    .contenedor {
+        width: 100%;
+        margin: 5vh auto;
+    }
 }
