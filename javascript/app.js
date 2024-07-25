@@ -44,6 +44,7 @@ function copiarTexto() {
     });
 }
 
+
 document.getElementById("encriptar").addEventListener("click", encriptador);
 document.getElementById("desencriptar").addEventListener("click", desencriptador);
 document.getElementById("copiar").addEventListener("click", copiarTexto);

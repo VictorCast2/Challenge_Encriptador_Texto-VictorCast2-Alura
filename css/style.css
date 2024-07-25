@@ -6,8 +6,6 @@
 
 body{
     background-color: #F3F5FC;
-
-
 }
 
 .contenedor{
@@ -18,23 +16,23 @@ body{
     left: -2277px;
     gap: 0px;
     opacity: 0px;
-
 }
 
-
+.imgsingno{
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    width: 16px;
+    height: 16px;
+    color: 65747D;
+}
 
 .caja_1{
     background-color: #ffffff;
     display: block;
-
 }
 
-.caja_2{
-    background-color: none;
-    display: block;
-}
-
-.caja_3{
+.caja_2,.caja_3{
     background-color: none;
     display: block;
 }
@@ -47,7 +45,6 @@ body{
     opacity: 0px;
     text-align: center;
     display: block;
-
 }
 
 .caja_5{
@@ -58,15 +55,9 @@ body{
     opacity: 0px;
     text-align: center;
     display: block;
-
 }
 
-.caja_6{
-    background-color: none;
-    display: block;
-}
-
-.caja_7{
+.caja_6,.caja_7{
     background-color: none;
     display: block;
 }
@@ -86,13 +77,9 @@ body{
     text-align: left;
     color: #495057;
     display: block;
-
-
-
 }
 
 .caja_11{
-
     padding: 24px;
     gap: 8px;
     border-radius: 24px;
@@ -102,8 +89,6 @@ body{
     z-index: 3;
     display: none;
     border: 1px solid #0A3871;
-
-
 }
 
 .caja_12{
@@ -123,20 +108,14 @@ body{
 
 /* Responsive Design */
 
-/* Laptop */
-@media (max-width: 1440px) {
-    .contenedor {
-        width: 100%;
-        height: auto;
-        margin: 15vh auto;
-    }
-}
-
 /* Tablet */
 @media (max-width: 768px) {
     .contenedor {
         width: 90%;
         margin: 10vh auto;
+    }
+    .caja_4, .caja_5 {
+        width: 100%;
     }
 }
 
@@ -145,5 +124,8 @@ body{
     .contenedor {
         width: 100%;
         margin: 5vh auto;
+    }
+    .caja_4, .caja_5 {
+        width: 100%;
     }
 }
